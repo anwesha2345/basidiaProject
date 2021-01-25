@@ -1,0 +1,22 @@
+{
+  "name": "basidiatesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "basidiatesting",
+    "dev-server": "nodemon app.js"
+  },
+  "author": "anwesha",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "http-error": "0.0.6",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.4.0",
+    "sequelize-cli": "^6.2.0"
+  }
+}
